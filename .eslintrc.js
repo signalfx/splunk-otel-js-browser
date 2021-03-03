@@ -101,5 +101,14 @@ module.exports = {
         'ecmaVersion': 2018
       },
     },
+    {
+      'files': ['examples/**/*.js'],
+      'parserOptions': {
+        'ecmaVersion': 2018
+      },
+      rules: {
+        'header/header': false,
+      },
+    },
   ]
 };

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@splunk/otel-web": "^0.1.1"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "temp-backend": "docker run -p 9411:9411 openzipkin/zipkin-slim"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^5.2.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
